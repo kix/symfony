@@ -206,7 +206,7 @@ abstract class Bundle extends ContainerAware implements BundleInterface
      *
      * @return string
      */
-    protected function getContainerExtensionClass()
+    public function getContainerExtensionClass()
     {
         $basename = preg_replace('/Bundle$/', '', $this->getName());
 
